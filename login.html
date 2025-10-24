@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page</title>
+  <style>
+body{
+  text-align: center;
+  background-color: rgb(7, 53, 18);
+  color: rgb(204, 204, 204);
+  margin-top: 100px;
+}
+  </style>
+</head>
+<body>
+  <h2>Login</h2>
+  <form id="loginForm">
+    <label>Username:</label>
+    <input type="text" id="username" required><br><br>
+    
+    <label>Password:</label>
+    <input type="password" id="password" required><br><br>
+    
+    <button type="submit">Login</button>
+  </form>
+
+  <p id="message"></p>
+
+  <script>
+    const setCookie = (name,value,seconds) =>{
+      const expires = new Date(Date.now() + seconds * 1000).toUTCString();
+      document.cookie = `${name} = ${value}; expires = ${expires}; path=/`
+    }
+
+    const getCookie = (name) =>{
+      const cookies = document.cookie.split("; ")
+      for(let cookie of cookies) {
+        const [key, value] = cookie.split("=")
+        if(key === name) return value
+      }
+      return null
+    }
+
+    document.getElementById("loginForm").addEventListener("submit", (e) =>{
+      e.preventDefault();
+      const username = document.getElementById("username").value
+      const password = document.getElementById("password").value
+      if(username === "ZahraGhafoory" && password === "12345678"){
+        setCookie("username", username, 3600);
+        localStorage.setItem("username", username);
+        document.getElementById("message").textContent = "Login successful!"
+        setTimeout(()=> window.location.href="index.html", 1000)
+      } else {
+        document.getElementById("message").textContent ="Invalid credentials!"
+      }
+    })
+    window.onload= ()=>{
+      const cookieUser = getCookie("username")
+      const localUser = localStorage.getItem("username")
+      if(localUser || cookieUser){
+        window.location.href="index.html"
+      }
+    }
+
+  </script>
+
+</body>
+</html>
