@@ -4,9 +4,9 @@
         "id": "afghanistan",
         "name": "Afghanistan",
         "cities": [
-          {"id":"kabul","name":"Kabul","image":"./images/Kabul.jpg","hotel":"Hotel Kabul","restaurant":"The Kabul Eatery","attractions":["Babur Gardens","National Museum","Shah-Do Shamshira"]},
-          {"id":"herat","name":"Herat","image":"./images/Herat.jpg","hotel":"Herat Grand","restaurant":"Herati Flavors","attractions":["Herat Citadel","Friday Mosque","Jeyhoon Bazaar"]},
-          {"id":"mazar","name":"Mazar-i-Sharif","image":"./images/Mazar-i-Sharif.jpg","hotel":"Mazar Hotel","restaurant":"Blue Mosque Bistro","attractions":["Blue Mosque","Balkh Ruins","Alaq Minor"] }
+          {"id":"kabul","name":"Kabul","image":"../images/Kabul.jpg","hotel":"Hotel Kabul","restaurant":"The Kabul Eatery","attractions":["Babur Gardens","National Museum","Shah-Do Shamshira"]},
+          {"id":"herat","name":"Herat","image":"../images/Herat.jpg","hotel":"Herat Grand","restaurant":"Herati Flavors","attractions":["Herat Citadel","Friday Mosque","Jeyhoon Bazaar"]},
+          {"id":"mazar","name":"Mazar-i-Sharif","image":"../images/Mazar-i-Sharif.jpg","hotel":"Mazar Hotel","restaurant":"Blue Mosque Bistro","attractions":["Blue Mosque","Balkh Ruins","Alaq Minor"] }
         ]
       },
       {
@@ -139,3 +139,4 @@
   }
 
   
+
