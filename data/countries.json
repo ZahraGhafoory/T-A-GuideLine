@@ -4,135 +4,135 @@
         "id": "afghanistan",
         "name": "Afghanistan",
         "cities": [
-          {"id":"kabul","name":"Kabul","image":"../images/Kabul.jpg","hotel":"Hotel Kabul","restaurant":"The Kabul Eatery","attractions":["Babur Gardens","National Museum","Shah-Do Shamshira"]},
-          {"id":"herat","name":"Herat","image":"../images/Herat.jpg","hotel":"Herat Grand","restaurant":"Herati Flavors","attractions":["Herat Citadel","Friday Mosque","Jeyhoon Bazaar"]},
-          {"id":"mazar","name":"Mazar-i-Sharif","image":"../images/Mazar-i-Sharif.jpg","hotel":"Mazar Hotel","restaurant":"Blue Mosque Bistro","attractions":["Blue Mosque","Balkh Ruins","Alaq Minor"] }
+          {"id":"kabul","name":"Kabul","image":"./images/Kabul.jpg","hotel":"Hotel Kabul","restaurant":"The Kabul Eatery","attractions":["Babur Gardens","National Museum","Shah-Do Shamshira"]},
+          {"id":"herat","name":"Herat","image":"./images/Herat.jpg","hotel":"Herat Grand","restaurant":"Herati Flavors","attractions":["Herat Citadel","Friday Mosque","Jeyhoon Bazaar"]},
+          {"id":"mazar","name":"Mazar-i-Sharif","image":"./images/Mazar-i-Sharif.jpg","hotel":"Mazar Hotel","restaurant":"Blue Mosque Bistro","attractions":["Blue Mosque","Balkh Ruins","Alaq Minor"] }
         ]
       },
       {
         "id": "iran",
         "name": "Iran",
         "cities": [
-          {"id":"tehran","name":"Tehran","image":"../images/Tehran.jpg","hotel":"Tehran Plaza","restaurant":"Dizi House","attractions":["Golestan Palace","Milad Tower","Grand Bazaar"]},
-          {"id":"isfahan","name":"Isfahan","image":"../images/Isfahan.jpg","hotel":"Isfahan Hotel","restaurant":"Traditional House","attractions":["Naqsh-e Jahan","Si-o-se-pol Bridge","Vank Cathedral"]},
-          {"id":"shiraz","name":"Shiraz","image":"../images/Shiraz.jpg","hotel":"Shiraz Inn","restaurant":"Persian Delights","attractions":["Persepolis","Eram Garden","Vakil Bazaar"]}
+          {"id":"tehran","name":"Tehran","image":"./images/Tehran.jpg","hotel":"Tehran Plaza","restaurant":"Dizi House","attractions":["Golestan Palace","Milad Tower","Grand Bazaar"]},
+          {"id":"isfahan","name":"Isfahan","image":"./images/Isfahan.jpg","hotel":"Isfahan Hotel","restaurant":"Traditional House","attractions":["Naqsh-e Jahan","Si-o-se-pol Bridge","Vank Cathedral"]},
+          {"id":"shiraz","name":"Shiraz","image":"./images/Shiraz.jpg","hotel":"Shiraz Inn","restaurant":"Persian Delights","attractions":["Persepolis","Eram Garden","Vakil Bazaar"]}
         ]
       },
       {
         "id": "us",
         "name": "United States",
         "cities": [
-          {"id":"newyork","name":"New York","image":"../images/New York.jpg","hotel":"Hotel NY","restaurant":"City Diner","attractions":["Statue of Liberty","Central Park","Times Square"]},
-          {"id":"losangeles","name":"Los Angeles","image":"../images/Los Angeles.jpg","hotel":"LA Resort","restaurant":"Sunset Grill","attractions":["Hollywood Sign","Venice Beach","Griffith Observatory"]},
-          {"id":"chicago","name":"Chicago","image":"../images/Chicago.jpg","hotel":"Chicago Plaza","restaurant":"Riverfront Cafe","attractions":["Millennium Park","Art Institute","Navy Pier"]}
+          {"id":"newyork","name":"New York","image":"./images/New York.jpg","hotel":"Hotel NY","restaurant":"City Diner","attractions":["Statue of Liberty","Central Park","Times Square"]},
+          {"id":"losangeles","name":"Los Angeles","image":"./images/Los Angeles.jpg","hotel":"LA Resort","restaurant":"Sunset Grill","attractions":["Hollywood Sign","Venice Beach","Griffith Observatory"]},
+          {"id":"chicago","name":"Chicago","image":"./images/Chicago.jpg","hotel":"Chicago Plaza","restaurant":"Riverfront Cafe","attractions":["Millennium Park","Art Institute","Navy Pier"]}
         ]
       },
       {
         "id": "uk",
         "name": "United Kingdom",
         "cities": [
-          {"id":"london","name":"London","image":"../images/London.jpg","hotel":"London Suites","restaurant":"Thames Bistro","attractions":["Big Ben","London Eye","Tower of London"]},
-          {"id":"manchester","name":"Manchester","image":"../images/Manchester.jpg","hotel":"Manchester Hotel","restaurant":"Northern Kitchen","attractions":["Old Trafford","Science Museum","Castlefield"]},
-          {"id":"edinburgh","name":"Edinburgh","image":"../images/Edinburgh.jpg","hotel":"Edinburgh Lodge","restaurant":"Royal Mile Eatery","attractions":["Edinburgh Castle","Royal Mile","Arthur's Seat"]}
+          {"id":"london","name":"London","image":"./images/London.jpg","hotel":"London Suites","restaurant":"Thames Bistro","attractions":["Big Ben","London Eye","Tower of London"]},
+          {"id":"manchester","name":"Manchester","image":"./images/Manchester.jpg","hotel":"Manchester Hotel","restaurant":"Northern Kitchen","attractions":["Old Trafford","Science Museum","Castlefield"]},
+          {"id":"edinburgh","name":"Edinburgh","image":"./images/Edinburgh.jpg","hotel":"Edinburgh Lodge","restaurant":"Royal Mile Eatery","attractions":["Edinburgh Castle","Royal Mile","Arthur's Seat"]}
         ]
       },
       {
         "id": "turkey",
         "name": "Turkey",
         "cities": [
-          {"id":"istanbul","name":"Istanbul","image":"../images/Istanbul.jpg","hotel":"Istanbul Grand","restaurant":"Bosporus Grill","attractions":["Hagia Sophia","Blue Mosque","Grand Bazaar"]},
-          {"id":"ankara","name":"Ankara","image":"../images/Ankara.jpg","hotel":"Ankara Central","restaurant":"Anatolian Kitchen","attractions":["Anitkabir","Museum of Anatolian","Genclik Park"]},
-          {"id":"izmir","name":"Izmir","image":"../images/Izmir.jpg","hotel":"Izmir Bay","restaurant":"Seaside Taverna","attractions":["Konak Square","Kordon","Asansor"]}
+          {"id":"istanbul","name":"Istanbul","image":"./images/Istanbul.jpg","hotel":"Istanbul Grand","restaurant":"Bosporus Grill","attractions":["Hagia Sophia","Blue Mosque","Grand Bazaar"]},
+          {"id":"ankara","name":"Ankara","image":"./images/Ankara.jpg","hotel":"Ankara Central","restaurant":"Anatolian Kitchen","attractions":["Anitkabir","Museum of Anatolian","Genclik Park"]},
+          {"id":"izmir","name":"Izmir","image":"./images/Izmir.jpg","hotel":"Izmir Bay","restaurant":"Seaside Taverna","attractions":["Konak Square","Kordon","Asansor"]}
         ]
       },
       {
         "id": "spain",
         "name": "Spain",
         "cities": [
-          {"id":"madrid","name":"Madrid","image":"../images/Madrid.jpg","hotel":"Madrid Center","restaurant":"Plaza Tapas","attractions":["Royal Palace","Plaza Mayor","Prado Museum"]},
-          {"id":"barcelona","name":"Barcelona","image":"../images/Barcelona.jpg","hotel":"Barcelona Beach","restaurant":"Gaudi Cafe","attractions":["Sagrada Familia","Park Guell","La Rambla"]},
-          {"id":"seville","name":"Seville","image":"../images/Seville.jpg","hotel":"Seville Inn","restaurant":"Flamenco House","attractions":["Alcazar","Plaza de Espana","Metropol Parasol"]}
+          {"id":"madrid","name":"Madrid","image":"./images/Madrid.jpg","hotel":"Madrid Center","restaurant":"Plaza Tapas","attractions":["Royal Palace","Plaza Mayor","Prado Museum"]},
+          {"id":"barcelona","name":"Barcelona","image":"./images/Barcelona.jpg","hotel":"Barcelona Beach","restaurant":"Gaudi Cafe","attractions":["Sagrada Familia","Park Guell","La Rambla"]},
+          {"id":"seville","name":"Seville","image":"./images/Seville.jpg","hotel":"Seville Inn","restaurant":"Flamenco House","attractions":["Alcazar","Plaza de Espana","Metropol Parasol"]}
         ]
       },
       {
         "id": "saudiarabia",
         "name": "Saudi Arabia",
         "cities": [
-          {"id":"riyadh","name":"Riyadh","image":"../images/Riyadh.jpg","hotel":"Riyadh Tower","restaurant":"Desert Dining","attractions":["Kingdom Centre","Al Masmak Fort","National Museum"]},
-          {"id":"jeddah","name":"Jeddah","image":"../images/Jeddah.jpg","hotel":"Jeddah Suites","restaurant":"Corniche Cafe","attractions":["Corniche","King Fahd Fountain","Al Balad"]},
-          {"id":"mecca","name":"Mecca","image":"../images/Mecca.jpg","hotel":"Mecca Hotel","restaurant":"Pilgrim Rest","attractions":["Masjid al-Haram","Kaaba","Abraj Al Bait"]}
+          {"id":"riyadh","name":"Riyadh","image":"./images/Riyadh.jpg","hotel":"Riyadh Tower","restaurant":"Desert Dining","attractions":["Kingdom Centre","Al Masmak Fort","National Museum"]},
+          {"id":"jeddah","name":"Jeddah","image":"./images/Jeddah.jpg","hotel":"Jeddah Suites","restaurant":"Corniche Cafe","attractions":["Corniche","King Fahd Fountain","Al Balad"]},
+          {"id":"mecca","name":"Mecca","image":"./images/Mecca.jpg","hotel":"Mecca Hotel","restaurant":"Pilgrim Rest","attractions":["Masjid al-Haram","Kaaba","Abraj Al Bait"]}
         ]
       },
       {
         "id": "southkorea",
         "name": "South Korea",
         "cities": [
-          {"id":"seoul","name":"Seoul","image":"../images/Seoul.jpg","hotel":"Seoul Grand","restaurant":"Korean BBQ","attractions":["Gyeongbokgung Palace","N Seoul Tower","Myeongdong"]},
-          {"id":"busan","name":"Busan","image":"../images/Busan.jpg","hotel":"Busan Bay","restaurant":"Seafood Market","attractions":["Haeundae Beach","Gamcheon Culture Village","Jagalchi Market"]},
-          {"id":"jeju","name":"Jeju","image":"../images/Jeju.jpg","hotel":"Jeju Resort","restaurant":"Island Eatery","attractions":["Hallasan","Seongsan Ilchulbong","Jeju Folk Village"]}
+          {"id":"seoul","name":"Seoul","image":"./images/Seoul.jpg","hotel":"Seoul Grand","restaurant":"Korean BBQ","attractions":["Gyeongbokgung Palace","N Seoul Tower","Myeongdong"]},
+          {"id":"busan","name":"Busan","image":"./images/Busan.jpg","hotel":"Busan Bay","restaurant":"Seafood Market","attractions":["Haeundae Beach","Gamcheon Culture Village","Jagalchi Market"]},
+          {"id":"jeju","name":"Jeju","image":"./images/Jeju.jpg","hotel":"Jeju Resort","restaurant":"Island Eatery","attractions":["Hallasan","Seongsan Ilchulbong","Jeju Folk Village"]}
         ]
       },
       {
         "id": "brazil",
         "name": "Brazil",
         "cities": [
-          {"id":"rio","name":"Rio de Janeiro","image":"../images/Rio de Janeiro.jpg","hotel":"Rio Palace","restaurant":"Copacabana Grill","attractions":["Christ the Redeemer","Copacabana","Sugarloaf Mountain"]},
-          {"id":"saopaulo","name":"São Paulo","image":"../images/Sau Paulo.jpg","hotel":"SP Suites","restaurant":"Paulista Bistro","attractions":["Ibirapuera Park","Museum of Art","Municipal Market"]},
-          {"id":"salvador","name":"Salvador","image":"../images/Salvador.jpg","hotel":"Salvador Inn","restaurant":"Bahia Kitchen","attractions":["Pelourinho","Elevador Lacerda","Porto da Barra"]}
+          {"id":"rio","name":"Rio de Janeiro","image":"./images/Rio de Janeiro.jpg","hotel":"Rio Palace","restaurant":"Copacabana Grill","attractions":["Christ the Redeemer","Copacabana","Sugarloaf Mountain"]},
+          {"id":"saopaulo","name":"São Paulo","image":"./images/Sau Paulo.jpg","hotel":"SP Suites","restaurant":"Paulista Bistro","attractions":["Ibirapuera Park","Museum of Art","Municipal Market"]},
+          {"id":"salvador","name":"Salvador","image":"./images/Salvador.jpg","hotel":"Salvador Inn","restaurant":"Bahia Kitchen","attractions":["Pelourinho","Elevador Lacerda","Porto da Barra"]}
         ]
       },
       {
         "id": "japan",
         "name": "Japan",
         "cities": [
-          {"id":"tokyo","name":"Tokyo","image":"../images/Tokyo.jpg","hotel":"Park Hyatt Tokyo","restaurant":"Sushi Master","attractions":["Shinjuku Gyoen","Senso-ji","Tokyo Tower"]},
-          {"id":"kyoto","name":"Kyoto","image":"../images/Kyoto.jpg","hotel":"Ritz-Carlton Kyoto","restaurant":"Kaiseki House","attractions":["Fushimi Inari","Kiyomizu-dera","Arashiyama Bamboo Grove"]},
-          {"id":"osaka","name":"Osaka","image":"../images/Osaka.jpg","hotel":"Conrad Osaka","restaurant":"Dotonbori Eats","attractions":["Osaka Castle","Dotonbori","Universal Studios Japan"]}
+          {"id":"tokyo","name":"Tokyo","image":"./images/Tokyo.jpg","hotel":"Park Hyatt Tokyo","restaurant":"Sushi Master","attractions":["Shinjuku Gyoen","Senso-ji","Tokyo Tower"]},
+          {"id":"kyoto","name":"Kyoto","image":"./images/Kyoto.jpg","hotel":"Ritz-Carlton Kyoto","restaurant":"Kaiseki House","attractions":["Fushimi Inari","Kiyomizu-dera","Arashiyama Bamboo Grove"]},
+          {"id":"osaka","name":"Osaka","image":"./images/Osaka.jpg","hotel":"Conrad Osaka","restaurant":"Dotonbori Eats","attractions":["Osaka Castle","Dotonbori","Universal Studios Japan"]}
         ]
       },
       {
         "id": "mexico",
         "name": "Mexico",
         "cities": [
-          {"id":"mexicocity","name":"Mexico City","image":"../images/Mexico City.jpg","hotel":"Mexico City Hotel","restaurant":"Zocalo Kitchen","attractions":["Zocalo","Chapultepec","Palacio de Bellas Artes"]},
-          {"id":"guadalajara","name":"Guadalajara","image":"../images/Guadalajara.jpg","hotel":"Guadalajara Inn","restaurant":"Tequila House","attractions":["Teatro Degollado","Guadalajara Cathedral","Plaza de Armas"]},
-          {"id":"cancun","name":"Cancun","image":"../images/Cancun.jpg","hotel":"Cancun Resort","restaurant":"Beachfront Tacos","attractions":["Beaches","Isla Mujeres","Xcaret Park"]}
+          {"id":"mexicocity","name":"Mexico City","image":"./images/Mexico City.jpg","hotel":"Mexico City Hotel","restaurant":"Zocalo Kitchen","attractions":["Zocalo","Chapultepec","Palacio de Bellas Artes"]},
+          {"id":"guadalajara","name":"Guadalajara","image":"./images/Guadalajara.jpg","hotel":"Guadalajara Inn","restaurant":"Tequila House","attractions":["Teatro Degollado","Guadalajara Cathedral","Plaza de Armas"]},
+          {"id":"cancun","name":"Cancun","image":"./images/Cancun.jpg","hotel":"Cancun Resort","restaurant":"Beachfront Tacos","attractions":["Beaches","Isla Mujeres","Xcaret Park"]}
         ]
       },
       {
         "id": "canada",
         "name": "Canada",
         "cities": [
-          {"id":"toronto","name":"Toronto","image":"../images/Herat.jpg","hotel":"Toronto Suites","restaurant":"Harbourfront Cafe","attractions":["CN Tower","Royal Ontario Museum","Toronto Islands"]},
-          {"id":"vancouver","name":"Vancouver","image":"../images/Vancouver.jpg","hotel":"Vancouver Hotel","restaurant":"Stanley Park Grill","attractions":["Stanley Park","Capilano Suspension Bridge","Granville Island"]},
-          {"id":"montreal","name":"Montreal","image":"../images/Montreal.jpg","hotel":"Montreal Lodge","restaurant":"Old Port Bistro","attractions":["Old Montreal","Mount Royal","Notre-Dame Basilica"]}
+          {"id":"toronto","name":"Toronto","image":"./images/Herat.jpg","hotel":"Toronto Suites","restaurant":"Harbourfront Cafe","attractions":["CN Tower","Royal Ontario Museum","Toronto Islands"]},
+          {"id":"vancouver","name":"Vancouver","image":"./images/Vancouver.jpg","hotel":"Vancouver Hotel","restaurant":"Stanley Park Grill","attractions":["Stanley Park","Capilano Suspension Bridge","Granville Island"]},
+          {"id":"montreal","name":"Montreal","image":"./images/Montreal.jpg","hotel":"Montreal Lodge","restaurant":"Old Port Bistro","attractions":["Old Montreal","Mount Royal","Notre-Dame Basilica"]}
         ]
       },
       {
         "id": "russia",
         "name": "Russia",
         "cities": [
-          {"id":"moscow","name":"Moscow","image":"../images/Moscow.jpg","hotel":"Moscow Central","restaurant":"Red Square Cafe","attractions":["Red Square","Kremlin","St. Basil's Cathedral"]},
-          {"id":"saintpetersburg","name":"Saint Petersburg","image":"../images/Saint Petersburg.jpg","hotel":"Hermitage Suites","restaurant":"Nevsky Eats","attractions":["Hermitage","Palace Square","Peterhof"]},
-          {"id":"novosibirsk","name":"Novosibirsk","image":"../images/Novosibirsk.jpg","hotel":"Novosibirsk Inn","restaurant":"Siberian Kitchen","attractions":["Novosibirsk Zoo","Alexander Nevsky Cathedral","Opera and Ballet Theatre"]}
+          {"id":"moscow","name":"Moscow","image":"./images/Moscow.jpg","hotel":"Moscow Central","restaurant":"Red Square Cafe","attractions":["Red Square","Kremlin","St. Basil's Cathedral"]},
+          {"id":"saintpetersburg","name":"Saint Petersburg","image":"./images/Saint Petersburg.jpg","hotel":"Hermitage Suites","restaurant":"Nevsky Eats","attractions":["Hermitage","Palace Square","Peterhof"]},
+          {"id":"novosibirsk","name":"Novosibirsk","image":"./images/Novosibirsk.jpg","hotel":"Novosibirsk Inn","restaurant":"Siberian Kitchen","attractions":["Novosibirsk Zoo","Alexander Nevsky Cathedral","Opera and Ballet Theatre"]}
         ]
       },
       {
         "id": "germany",
         "name": "Germany",
         "cities": [
-          {"id":"berlin","name":"Berlin","image":"../images/Berlin.jpg","hotel":"Berlin Hotel","restaurant":"Brandenburg Grill","attractions":["Brandenburg Gate","Berlin Wall","Museum Island"]},
-          {"id":"munich","name":"Munich","image":"../images/Munich.jpg","hotel":"Munich Suites","restaurant":"Bavarian Haus","attractions":["Marienplatz","English Garden","Nymphenburg Palace"]},
-          {"id":"hamburg","name":"Hamburg","image":"../images/Hamburg.jpg","hotel":"Hamburg Harbor","restaurant":"Portside Cafe","attractions":["Miniatur Wunderland","Elbphilharmonie","Port of Hamburg"]}
+          {"id":"berlin","name":"Berlin","image":"./images/Berlin.jpg","hotel":"Berlin Hotel","restaurant":"Brandenburg Grill","attractions":["Brandenburg Gate","Berlin Wall","Museum Island"]},
+          {"id":"munich","name":"Munich","image":"./images/Munich.jpg","hotel":"Munich Suites","restaurant":"Bavarian Haus","attractions":["Marienplatz","English Garden","Nymphenburg Palace"]},
+          {"id":"hamburg","name":"Hamburg","image":"./images/Hamburg.jpg","hotel":"Hamburg Harbor","restaurant":"Portside Cafe","attractions":["Miniatur Wunderland","Elbphilharmonie","Port of Hamburg"]}
         ]
       },
       {
         "id": "sweden",
         "name": "Sweden",
         "cities": [
-          {"id":"stockholm","name":"Stockholm","image":"../images/Stockolm.jpg","hotel":"Stockholm Inn","restaurant":"Gamla Stan Cafe","attractions":["Gamla Stan","Vasa Museum","Skansen"]},
-          {"id":"gothenburg","name":"Gothenburg","image":"../images/Gothenburg.jpg","hotel":"Gothenburg Hotel","restaurant":"Harbor Kitchen","attractions":["Liseberg","Universeum","Haga"]},
-          {"id":"malmo","name":"Malmo","image":"../images/Malmo.jpg","hotel":"Malmo Suites","restaurant":"Turning Torso Cafe","attractions":["Turning Torso","Malmo Castle","Ribersborg Beach"]}
+          {"id":"stockholm","name":"Stockholm","image":"./images/Stockolm.jpg","hotel":"Stockholm Inn","restaurant":"Gamla Stan Cafe","attractions":["Gamla Stan","Vasa Museum","Skansen"]},
+          {"id":"gothenburg","name":"Gothenburg","image":"./images/Gothenburg.jpg","hotel":"Gothenburg Hotel","restaurant":"Harbor Kitchen","attractions":["Liseberg","Universeum","Haga"]},
+          {"id":"malmo","name":"Malmo","image":"./images/Malmo.jpg","hotel":"Malmo Suites","restaurant":"Turning Torso Cafe","attractions":["Turning Torso","Malmo Castle","Ribersborg Beach"]}
         ]
       }
     ]
