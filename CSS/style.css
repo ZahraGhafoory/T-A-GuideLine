@@ -39,7 +39,27 @@ header{
 }
 
 /* Small screens navbar layout */
-@media (max-width: 575.98px) {
+@media (max-width: 400px) {
+  .sidebar-button{
+    position: absolute;
+    top: 41px;
+       width: 44px;
+    height: 35px;
+  }
+   .navbar-brand{
+    font-size: 13px;
+   } 
+  .right-btns{
+    position: absolute;
+    top: 43px;
+  }
+  #country-search{
+    position: absolute;
+    top: 9px;
+    right: 0px;
+    border-radius: 50px;
+  }
+  #sidebarMenu { left: 0px; right: 8px; width: 10rem; top: 95px; }
   #nav-right {
     width: 100%;
     align-items: flex-end !important;
@@ -77,6 +97,7 @@ header{
 
 /* Small screens sidebar adjustments */
 @media (max-width:767px){
+  
   .sidebar-button{
     position: absolute;
     top: 41px;
@@ -162,5 +183,6 @@ body.dark .card {
 body.dark .navbar-dark .btn-outline-light {
   border-color: #ffffffdc;
 }
+
 
 
