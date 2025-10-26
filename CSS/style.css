@@ -16,7 +16,11 @@ body {
 }
 header{
   position: sticky;
-  top: 0px;
+  top: 0px; 
+  background-color: black;
+}
+.the-navbar{
+  background-color: black;
 }
 /* Fade-in animation for cards and sections */
 .fade-in { animation: fadeIn .25s ease both; }
@@ -96,7 +100,7 @@ header{
 }
 
 /* Small screens sidebar adjustments */
-@media (max-width:767px){
+@media only screen and (max-width:767px){
   the-navbar{
     height: 100px;
   }
@@ -187,6 +191,7 @@ body.dark .card {
 body.dark .navbar-dark .btn-outline-light {
   border-color: #ffffffdc;
 }
+
 
 
 
