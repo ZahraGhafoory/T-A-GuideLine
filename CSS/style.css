@@ -97,7 +97,9 @@ header{
 
 /* Small screens sidebar adjustments */
 @media (max-width:767px){
-  
+  the-navbar{
+    height: 100px;
+  }
   .sidebar-button{
     position: absolute;
     top: 41px;
@@ -106,6 +108,8 @@ header{
   }
    .navbar-brand{
     font-size: 13px;
+    position: absolute;
+    top: 5px;
    } 
   .right-btns{
     position: absolute;
@@ -183,6 +187,7 @@ body.dark .card {
 body.dark .navbar-dark .btn-outline-light {
   border-color: #ffffffdc;
 }
+
 
 
 
