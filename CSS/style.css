@@ -39,7 +39,7 @@ header{
 }
 
 /* Small screens navbar layout */
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
   .sidebar-button{
     position: absolute;
     top: 41px;
@@ -82,7 +82,7 @@ header{
     flex-wrap: wrap;
     justify-content: flex-start;
   }
-}
+} */
 
 /* Sidebar panel */
 #sidebarMenu {
@@ -187,6 +187,7 @@ body.dark .card {
 body.dark .navbar-dark .btn-outline-light {
   border-color: #ffffffdc;
 }
+
 
 
 
