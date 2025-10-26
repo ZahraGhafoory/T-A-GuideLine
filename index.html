@@ -12,11 +12,11 @@
 <body class="bg-light">
 
 <header>
-  <nav class="navbar navbar-dark bg-dark px-3 position-relative the-navbar">
+  <nav class="navbar navbar-dark bg-dark px-3 position-relative">
     <div class="container-fluid d-flex flex-column flex-lg-row align-items-start align-items-lg-center justify-content-between">
       <div class="col-lg-2 col-md-6 d-flex flex-lg-row align-items-start align-items-lg-center">
         <a class="navbar-brand mb-2 mb-lg-0 nav-brand" href="index.html"><i>TA Guideline</i></a>
-        <button class="sidebar-button btn btn-outline-light mb-2 mb-lg-0 ms-lg-3 sidebar-btn" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle countries">
+        <button class="btn btn-outline-light mb-2 mb-lg-0 ms-lg-3 sidebar-btn" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle countries">
           <i class="fa-solid fa-bars"></i>
         </button>
       </div>
@@ -30,7 +30,7 @@
       <div id="nav-right" class="col-lg-3 col-md-6 d-flex flex-column flex-md-row align-items-start align-items-md-center gap-2 ms-lg-auto">
 
         <input id="country-search" class="form-control form-control-sm" type="search" placeholder="Search country..." aria-label="Search country">
-        <div class="right-btns btn-group mt-1 mt-sm-0">
+        <div class="btn-group mt-1 mt-sm-0">
           <a class="btn btn-outline-light" href="./favorites.html" title="Favorites">
             <i class="fa-solid fa-heart"></i>
           </a>
@@ -50,13 +50,13 @@
 
 <main class="container mt-4">
   <!-- Home Section -->
-  <section id="home" class="py-5 fade-in">
+  <section id="home" class="py-5 fade-in active">
     <div class="row align-items-center">
-      <div class="col-lg-6 mb-5">
+      <div class="col-lg-6 mb-sm-5">
         <i>
         <h1 id="welcome"></h1>
-        <p class="lead">Discover countries, cities, hotels, restaurants and attractions. <br>
-          found interest? just add to your favorites then you could start planning your trip.</p>        
+        <p class="lead">Discover countries, cities, hotels, restaurants and attractions.
+          found interest just add to your favorites for planning your trip.</p>        
         <a href="#about" class="btn btn-success m-2 border-white">Learn more</a>
         
          <a href="./login.html"> <button id="login-btn" class="btn btn-outline-primary m-2 btn-sm">Login</button></a>  
@@ -110,18 +110,18 @@
     <p class="text-center mx-auto" style="max-width:800px;">
        TA is a tourist assistance website created by Zahra Ghafoory a web developer from Afghanistan. 
        It is rounded to help people find the interest of their traveling destination. 
-       An easy way for tourists that is  not only tourists exactly, but for whoever in the world who wants to go on a trip or on vacation or even for business.
-       On this site you will get to now about most famous cities and tourist attractions about a country,
-       just by searching its name. Also the hotels, bars, fun places, and other exiting things that you might like to 
-       experience while visiting a new place. The best way to find your comfort, because 
+       An easy way for tourists not only tourists but for whoeveer in the world who wants to go on a trip or on vacation or business.
+       On this site you will get to now about most famous cities and tourist attractions about a country
+       just by searching its name, also the hotels, bars, fun places, and other exiting thing that you would like to 
+       experience on a trip. This is a way to find your comfort. 
        We are here to help you know the place you are traveling to. 
-       Just sign in on our website, search the country you are traveling to, then look for the city which is your 
-       destination and find out everything about that.
+       Just sign in on our website search the country you are traveling to look for the city which is your 
+       destinatio and find out everything about that.
     </p>
   </section>
 
   <!-- Contact Section -->
-  <section id="contact" class="py-5 fade-in">
+  <section id="contact" class="py-5 fade-in active">
     <h2 class="text-center mb-4">Contact Us</h2>
     <form id="contact-form" class="mx-auto" style="max-width:680px;">
       <div class="mb-3"><label class="form-label" for="name">Name</label><input id="name" class="form-control" required></div>
@@ -218,10 +218,3 @@
 <script src="./JS/script.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
