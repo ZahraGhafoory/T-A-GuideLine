@@ -77,7 +77,26 @@ header{
 
 /* Small screens sidebar adjustments */
 @media (max-width:767px){
-  #sidebarMenu { left: 8px; right: 8px; width: 10rem; }
+  .sidebar-button{
+    position: absolute;
+    top: 41px;
+       width: 44px;
+    height: 35px;
+  }
+   .navbar-brand{
+    font-size: 13px;
+   } 
+  .right-btns{
+    position: absolute;
+    top: 43px;
+  }
+  #country-search{
+    position: absolute;
+    top: 9px;
+    right: 0px;
+    border-radius: 50px;
+    ]
+  #sidebarMenu { left: 0px; right: 8px; width: 10rem; top: 95px; }
   .nav-pages.d-none.d-md-flex { display: none !important; }
 }
 
@@ -143,4 +162,5 @@ body.dark .card {
 body.dark .navbar-dark .btn-outline-light {
   border-color: #ffffffdc;
 }
+
 
